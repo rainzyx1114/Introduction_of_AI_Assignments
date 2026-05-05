@@ -1,2 +1,2 @@
 # Introduction_of_AI_Assignments
-北京大学人工智能引论lab作业个人代码~
+2026春北京大学人工智能引论lab作业个人代码~
