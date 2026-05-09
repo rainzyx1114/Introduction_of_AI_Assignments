@@ -24,8 +24,8 @@ def data_trans(dataset, labels):
         img_rot = ndimage.rotate(img, np.random.uniform(-15, 15), reshape=False)
         return img_rot
     def shif(img):
-        dx = np.random.uniform(-4, 4)
-        dy = np.random.uniform(-4, 4)
+        dx = np.random.uniform(-4.5, 4.5)
+        dy = np.random.uniform(-4.5, 4.5)
         img_shif = ndimage.shift(img, shift=(dx, dy), mode='nearest')
         return img_shif
     # def noi(img):
